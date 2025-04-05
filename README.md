@@ -51,16 +51,7 @@ Traz detalhes da minha trajetória, formação e objetivos profissionais.
 
 ## 🚀 Arquitetura do Projeto
 
-src/
-├── assets/               # Recursos estáticos (imagens)
-├── components/           # Componentes React
-│   ├── about/            # Componentes da seção Sobre
-│   ├── home/             # Componentes da seção principal
-│   ├── layout/           # Componentes estruturais (Header, Footer)
-│   ├── project/          # Componentes de projetos
-│   ├── shared/           # Componentes compartilhados
-│   └── ui/               # Componentes básicos de UI
-└── utils/                # Funções utilitárias e dados
+src/ ├── assets/ # Recursos estáticos (imagens) ├── components/ # Componentes React │ ├── about/ # Componentes da seção Sobre │ ├── home/ # Componentes da seção principal │ ├── layout/ # Componentes estruturais (Header, Footer) │ ├── project/ # Componentes de projetos │ ├── shared/ # Componentes compartilhados │ └── ui/ # Componentes básicos de UI └── utils/ # Funções utilitárias e dados
 
 
 ## 🎯 Acessibilidade e SEO
