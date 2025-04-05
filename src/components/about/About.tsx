@@ -3,24 +3,25 @@ import imageAbout from '@/assets/about-image.png';
 export const About = () => {
 	return (
 		<section
-			className="w-full flex items-center justify-center p-4 border rounded-md overflow-hidden"
+			className="w-full max-w-[100%]  flex items-center justify-center p-4 border rounded-md overflow-hidden bg-background"
 			aria-labelledby="about-heading"
 			id="about"
 		>
-			<article className="max-w-5xl w-full flex flex-col md:flex-row gap-6 items-center justify-center overflow-y-auto pr-2 custom-scrollbar h-[600px] md:h-[500px]">
-				<div className="w-[200px] mt-100 md:mt-0 h-auto md:w-1/3">
-					<h2 id="about-heading" className="sr-only">Sobre Leonardo Mendes</h2>
+			<article className="w-full flex flex-col md:flex-row gap-6 items-start justify-start overflow-y-auto  custom-scrollbar max-h-[60vh]">
+				<h2 id="about-heading" className="sr-only">Sobre Leonardo Mendes</h2>
+				
+				<div className="w-full max-w-[200px] sm:max-w-[250px] md:max-w-[300px] shrink-0 mx-auto md:mx-0 md:w-1/4 flex items-start justify-center pt-2 pb-4 md:pb-0">
 					<img
-						className="w-full md:h-full rounded-lg shadow-md object-cover"
+						className="w-full h-auto rounded-lg shadow-md object-cover"
 						src={imageAbout}
 						alt="Leonardo Mendes, desenvolvedor front-end"
-						width="200"
-						height="300"
+						width="150"
+						height="150"
 						loading="lazy"
 					/>
 				</div>
 
-				<div className="w-full md:w-2/3 space-y-4 text-base text-muted-foreground leading-relaxed">
+				<div className="w-full md:w-3/4 space-y-4 text-sm md:text-base text-muted-foreground leading-relaxed pt-0 md:pt-2">
 					<p>
 						Olá, eu sou{' '}
 						<strong className="font-semibold text-primary">

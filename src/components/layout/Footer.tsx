@@ -8,7 +8,7 @@ export const Footer = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{ duration: 1, delay: 1.9, ease: 'linear' }}
-			className="text-sm text-center border-t w-full max-w-dvw"
+			className="text-xs md:text-sm text-center border-t w-full max-w-dvw"
 			role="contentinfo"
 			aria-label="Rodapé do site"
 		>

@@ -8,7 +8,7 @@ const TECH_BADGE_LIST = ['Next.js', 'Prisma', 'Stripe'];
 const title = 'E-commerce Platform';
 export const ProjectItem = () => {
 	return (
-		<article className="flex flex-col text-star opacity-80 hover:opacity-100 transition-opacity ease-in-out duration-500 border border-secondary group rounded-sm">
+		<article className="flex flex-col text-start opacity-100 md:opacity-80 hover:opacity-100 transition-opacity ease-in-out duration-500 border border-secondary group rounded-sm">
 			<div>
 				<img
 					className="object-cover w-full h-full rounded-t"
@@ -19,10 +19,10 @@ export const ProjectItem = () => {
 			</div>
 			<div className="flex flex-col gap-6 flex-1/2 p-2 ">
 				<div className="flex flex-col gap-2">
-					<h3 className="text-xl group-hover:text-chart-2 transition-all duration-300">
+					<h3 className="text-lg md:text-xl group-hover:text-chart-2 transition-all duration-300">
 						E-commerce Platform
 					</h3>
-					<p className="text-sm ">
+					<p className="text-xs md:text-sm ">
 						A full-stack e-commerce platform built with Next.js, Prisma, and
 						Stripe integration. A full-stack e-commerce platform built with
 						Next.js, Prisma, and Stripe integration.
@@ -31,7 +31,7 @@ export const ProjectItem = () => {
 
 				<div className="flex gap-2" aria-label="Tecnologias utilizadas">
 					{TECH_BADGE_LIST.map((item, index) => {
-						return <Badge key={index} aria-label={`Tecnologia: ${item}`}>{item}</Badge>;
+						return <Badge className="text-[10px] md:text-sm" key={index} aria-label={`Tecnologia: ${item}`}>{item}</Badge>;
 					})}
 				</div>
 
@@ -43,7 +43,7 @@ export const ProjectItem = () => {
 						rel="noopener noreferrer"
 						target="_blank"
 					>
-						<span className="text-sm ">Abrir</span>
+						<span className="text-xs md:text-sm ">Abrir</span>
 						<SquareArrowOutUpRight size={16} />
 					</a>
 					<Separator orientation="vertical" aria-hidden="true" />
@@ -55,7 +55,7 @@ export const ProjectItem = () => {
 						target="_blank"
 					>
 						<Github size={16} aria-hidden="true" />
-						<span className="text-sm">Github</span>
+						<span className="text-xs md:text-sm">Github</span>
 						<SquareArrowOutUpRight size={16} aria-hidden="true"/>
 					</a>
 				</div>

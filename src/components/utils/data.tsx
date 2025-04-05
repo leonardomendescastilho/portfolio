@@ -14,6 +14,12 @@ export const TECH_STACK = [
 	'Tailwind',
 	'CSS3',
 	'HTML5',
+	'Next.js',
+	'Node.js',
+	'Express',
+	'PostgreSQL',
+	'MySQL',
+	'MongoDB',
 ];
 
 export const SOCIAL_MEDIA = [

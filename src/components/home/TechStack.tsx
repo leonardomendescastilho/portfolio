@@ -8,7 +8,7 @@ export const TechStack = () => {
 	return (
 		<section aria-labelledby="tech-stack-heading">
 			<h3 id="tech-stack-heading" className="sr-only">Tecnologias e Habilidades</h3>
-			<ul className="flex flex-wrap gap-1 md:gap-2 mt-1" role="list" aria-label="Lista de tecnologias">
+			<ul className="grid grid-cols-4 grid-rows-auto md:grid-cols-6 md:grid-rows-auto gap-1 md:gap-2 mt-1" role="list" aria-label="Lista de tecnologias">
 				{TECH_STACK.map((item, index) => {
 					return (
 						<li key={index}>
@@ -16,10 +16,11 @@ export const TechStack = () => {
 								initial={{ opacity: 0, scale: 0 }}
 								animate={{ opacity: 1, scale: 1 }}
 								transition={{
-									duration: index * 0.2,
+									duration: index * 0.1,
 									delay: 1.2,
 									ease: 'easeInOut',
 								}}
+								className="w-17 py-1 text-[10px] md:text-xs"
 								variant={'default'}
 							>
 								{item}

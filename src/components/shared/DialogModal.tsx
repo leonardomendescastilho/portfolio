@@ -38,14 +38,14 @@ export function DialogModal({
 				</Button>
 			</DialogTrigger>
 			<DialogContent 
-				className="sm:max-w-[425px] md:max-w-[900px] lg:max-w-7xl"
+				className="sm:max-w-[420px] md:w-[750px] md:max-w-[900px] lg:w-[980px] lg:max-w-7xl"
 				id={dialogId}
 				aria-labelledby={`${dialogId}-title`}
 				role="dialog"
 			>
 				<DialogHeader>
 					<DialogTitle 
-						className="text-3xl text-center" 
+						className="text-2xl md:text-3xl text-center" 
 						id={`${dialogId}-title`}
 					>
 						{title}
