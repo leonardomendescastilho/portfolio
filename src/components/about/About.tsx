@@ -21,7 +21,7 @@ export const About = () => {
 				</div>
 
 				<div className="w-full md:w-2/3 space-y-4 text-base text-muted-foreground leading-relaxed">
-					<p tabIndex="0">
+					<p>
 						Olá, eu sou{' '}
 						<strong className="font-semibold text-primary">
 							Leonardo Mendes
