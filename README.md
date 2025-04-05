@@ -51,7 +51,8 @@ Traz detalhes da minha trajetória, formação e objetivos profissionais.
 
 ## 🚀 Arquitetura do Projeto
 
-{7E6904AD-BFD9-46E0-B12E-FBB11515795E}.png
+
+![Arquitetura do Projeto](./src//assets//arquitetura.png)
 
 ## 🎯 Acessibilidade e SEO
 
