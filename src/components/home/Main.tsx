@@ -5,11 +5,11 @@ import { Resume } from '../shared/Resume';
 
 export const Main = () => {
 	return (
-		<main className="flex flex-col gap-4 items-center w-full" aria-labelledby="profile-heading">
+		<main className="flex flex-col gap-3 md:gap-4 items-center w-full" aria-labelledby="profile-heading">
 			<span id="profile-heading" className="sr-only">Portfolio de Leonardo Mendes</span>
 			<ProfileDetails />
 			<TechStack />
-			<div className="flex w-full justify-center items-center mt-10 mb-30">
+			<div className="flex w-full justify-center items-center mt-5 mb-25 md:mt-10 md:mb-30">
 				<Resume />
 			</div>
 			<SocialMedia />
