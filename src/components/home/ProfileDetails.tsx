@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 export const ProfileDetails = () => {
 	return (
 		<>
-			<div className="overflow-hidden rounded-full w-[200px] sm:w-[240px] md:w-[270px] text-center" aria-label="Imagem de perfil">
+			<div className="overflow-hidden rounded-full w-[200px] sm:w-[240px] md:w-[250px] text-center" aria-label="Imagem de perfil">
 				<motion.img
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
