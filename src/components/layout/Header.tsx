@@ -10,7 +10,7 @@ export const Header = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{ duration: 1, delay: 0.4, ease: 'easeInOut' }}
-			className="flex items-center justify-center md:justify-end py-2 px-10 w-full border-b"
+			className="flex items-center justify-center md:justify-end py-2 px-4 w-full border-b max-w-7xl"
 			aria-label="Cabeçalho do site"
 		>
 			<nav aria-label="Menu principal">

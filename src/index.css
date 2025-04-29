@@ -124,52 +124,12 @@
 }
 
 @layer utilities {
-	/* Barra de rolagem personalizada */
-	.custom-scrollbar {
-		/* Para Firefox */
-		scrollbar-width: thin;
-		scrollbar-color: #444 transparent; /* Cor do thumb e track no modo claro */
-	}
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 
-	/* Modo Claro */
-	.custom-scrollbar::-webkit-scrollbar {
-		width: 8px;
-	}
 
-	.custom-scrollbar::-webkit-scrollbar-track {
-		background: #e5e5e5; /* Fundo claro no modo claro */
-	}
-
-	.custom-scrollbar::-webkit-scrollbar-thumb {
-		background: #444; /* Barra escura no modo claro */
-		border-radius: 4px;
-	}
-
-	.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-		background: #666; /* Hover no modo claro */
-	}
-
-	/* Modo Escuro */
-	.dark .custom-scrollbar {
-		/* Para Firefox */
-		scrollbar-width: thin;
-		scrollbar-color: #888 transparent; /* Cor do thumb e track no modo escuro */
-	}
-
-	.dark .custom-scrollbar::-webkit-scrollbar {
-		width: 8px;
-	}
-
-	.dark .custom-scrollbar::-webkit-scrollbar-track {
-		background: #1a1a1a; /* Fundo escuro no modo escuro */
-	}
-
-	.dark .custom-scrollbar::-webkit-scrollbar-thumb {
-		background: #888; /* Barra mais clara no modo escuro */
-		border-radius: 4px;
-	}
-
-	.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-		background: #aaa; /* Hover no modo escuro */
-	}
+  .hide-scrollbar {
+    scrollbar-width: none;
+  }
 }

@@ -4,17 +4,10 @@ import { Main } from '../home/Main';
 
 export const Portfolio = () => {
 	return (
-		<div className="flex flex-col justify-around items-center min-h-dvh gap-6 ">
-			<div className="w-full max-w-7xl">
-				<Header />	
-			</div>
-			<div className="flex  text-center px-4 w-full  max-w-7xl mx-auto">
-				<Main />
-			</div>
-
-			<div>
-				<Footer />
-			</div>
+		<div className="min-h-screen max-auto px-4 flex flex-col items-center justify-between">
+			<Header />	
+			<Main />
+			<Footer />
 		</div>
 	);
 };
