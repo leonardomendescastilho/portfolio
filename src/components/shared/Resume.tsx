@@ -7,9 +7,9 @@ const AnimatedButton = motion(Button);
 export const Resume = () => {
 	return (
 		<section aria-labelledby="curriculo-heading" className="my-10">
-			<h3 id="curriculo-heading" className="sr-only">Download Curriculo</h3>
+			<h3 id="curriculo-heading" className="sr-only">Baixar Currículoo</h3>
 			<a
-				href="/public/cv_leonardo.pdf"
+				href="/cv_leonardo.pdf"
 				download={'curriculo-leonardo.pdf'}
 				aria-label="Baixar currículo em formato PDF"
 				rel="noopener noreferrer"
@@ -19,7 +19,7 @@ export const Resume = () => {
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					transition={{ duration: 0.5, delay: 2.3, ease: 'easeInOut' }}
-					className="bg-chart-2 text-xs md:text-sm"
+					className="bg-chart-1 text-xs md:text-sm cursor-pointer"
 					variant={'default'}
 					size={window.innerWidth >= 768 ? 'lg' : 'sm'}
 					aria-label="Baixar currículo em formato PDF"
