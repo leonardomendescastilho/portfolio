@@ -3,12 +3,10 @@ import {
 	Dialog,
 	DialogContent,
 	DialogDescription,
-	DialogFooter,
 	DialogHeader,
 	DialogTitle,
 	DialogTrigger,
 } from '@/components/ui/dialog';
-import { Resume } from './Resume';
 import  { useState } from 'react';
 
 import { DialogModalProps } from '../utils/types';
@@ -38,14 +36,14 @@ export function DialogModal({
 				</Button>
 			</DialogTrigger>
 			<DialogContent 
-				className="sm:max-w-[420px] md:w-[750px] md:max-w-[900px] lg:w-[980px] lg:max-w-7xl"
+				className="max-w-[400px] sm:max-w-[420px] md:w-[750px] md:max-w-[900px] lg:w-[980px]"
 				id={dialogId}
 				aria-labelledby={`${dialogId}-title`}
 				role="dialog"
 			>
 				<DialogHeader>
 					<DialogTitle 
-						className="text-2xl md:text-3xl text-center" 
+						className="text-2xl md:text-3xl text-center tracking-tighter" 
 						id={`${dialogId}-title`}
 					>
 						{title}
@@ -63,9 +61,6 @@ export function DialogModal({
 					{children}
 				</div>
 
-				<DialogFooter>
-					<Resume />
-				</DialogFooter>
 			</DialogContent>
 		</Dialog>
 	);
