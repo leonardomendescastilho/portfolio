@@ -24,9 +24,9 @@ export function DialogModal({
 		<Dialog open={isOpen} onOpenChange={setIsOpen}>
 			<DialogTrigger asChild>
 				<Button
-					className="text-base uppercase transition-all duration-300 hover:text-chart-2 focus-visible:ring-2 focus-visible:ring-offset-2"
+					className="uppercase tracking-tighter transition-all duration-300 hover:text-chart-1 cursor-pointer"
 					variant="link"
-					size={'lg'}
+					size={'sm'}
 					aria-label={triggerAriaLabel || `Abrir ${title}`}
 					aria-haspopup="dialog"
 					aria-expanded={isOpen}

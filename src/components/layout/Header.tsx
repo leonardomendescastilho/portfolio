@@ -10,11 +10,11 @@ export const Header = () => {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
 			transition={{ duration: 1, delay: 0.4, ease: 'easeInOut' }}
-			className="flex items-center justify-center md:justify-end py-2 px-4 w-full border-b max-w-7xl"
+			className="flex items-center justify-center md:justify-end py-1 w-full border-b max-w-7xl gap-2"
 			aria-label="Cabeçalho do site"
 		>
 			<nav aria-label="Menu principal">
-				<ul className="flex items-center gap-4 font-bold text-sm md:text-base uppercase tracking-tight  ">
+				<ul className="flex">
 					<li>
 						<DialogModal
 							title="Projetos"

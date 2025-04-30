@@ -20,7 +20,7 @@ export const TechStack = () => {
 									delay: 1.2,
 									ease: 'easeInOut',
 								}}
-								className="w-17 py-1 text-[10px]"
+								className="w-17 py-1 text-[9px] md:text-[11px]"
 								variant={'default'}
 							>
 								{item}

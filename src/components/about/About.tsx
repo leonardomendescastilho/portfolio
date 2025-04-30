@@ -3,25 +3,22 @@ import imageAbout from '@/assets/about-image.png';
 export const About = () => {
 	return (
 		<section
-			className="w-full max-w-[100%]  flex items-center justify-center p-4 border rounded-md overflow-hidden bg-background"
 			aria-labelledby="about-heading"
 			id="about"
 		>
-			<article className="w-full flex flex-col md:flex-row gap-6 items-start justify-start overflow-y-auto  custom-scrollbar max-h-[60vh]">
+			<article className="grid md:grid-cols-2 gap-4 md:justify-items-start overflow-y-auto hide-scrollbar h-[60dvh] md:h-[65dvh] border rounded-sm p-2">
 				<h2 id="about-heading" className="sr-only">Sobre Leonardo Mendes</h2>
 				
-				<div className="w-full max-w-[200px] sm:max-w-[250px] md:max-w-[300px] shrink-0 mx-auto md:mx-0 md:w-1/4 flex items-start justify-center pt-2 pb-4 md:pb-0">
+				<div className='flex overflow-hidden justify-self-center self-center rounded-sm h-54 sm:h-78 md:h-90 lg:h-110'>
 					<img
-						className="w-full h-auto rounded-lg shadow-md object-cover"
+						className="object-cover"
 						src={imageAbout}
 						alt="Leonardo Mendes, desenvolvedor front-end"
-						width="150"
-						height="150"
-						loading="lazy"
+						loading="eager"
 					/>
 				</div>
 
-				<div className="w-full md:w-3/4 space-y-4 text-sm md:text-base text-muted-foreground leading-relaxed pt-0 md:pt-2">
+				<div className="text-sm md:text-base text-muted-foreground space-y-2 leading-snug text-pretty self-center">
 					<p>
 						Olá, eu sou{' '}
 						<strong className="font-semibold text-primary">
@@ -58,7 +55,7 @@ export const About = () => {
 					</p>
 					<p>
 						Fora da programação, pratico{' '}
-						<strong className="font-semibold text-primary"> meditação </strong>,
+						<strong className="font-semibold text-primary">meditação</strong>,
 						o que me ajuda a manter o foco e a clareza ao desenvolver interfaces
 						que priorizam a experiência do usuário.{' '}
 					</p>

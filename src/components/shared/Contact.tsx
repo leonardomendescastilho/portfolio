@@ -23,7 +23,7 @@ export const Contact = () => {
 											delay: 1.75,
 											ease: 'easeInOut',
 										}}
-										className="bg-primary hover:opacity-70"
+										className="bg-primary text-xs md:text-sm hover:bg-chart-1 transition-all duration-150"
 										variant={'default'}
 										size={'icon'}
 										asChild
