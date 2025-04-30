@@ -1,5 +1,5 @@
+import { TECH_STACK } from '@/data';
 import { Badge } from '../ui/badge';
-import { TECH_STACK } from '../utils/data';
 import { motion } from 'motion/react';
 
 const AnimatedBadge = motion(Badge);

@@ -4,10 +4,7 @@ import {
 	TooltipProvider,
 	TooltipTrigger,
 } from '@/components/ui/tooltip';
-
-
-import { TooltipInfoProps } from '../utils/types';
-
+import { TooltipInfoProps } from '@/types';
 
 export const TooltipInfo = ({ children, tip }: TooltipInfoProps) => {
 	return (

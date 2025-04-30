@@ -1,5 +1,5 @@
 import { ProjectItem } from './ProjectItem';
-import { projects } from '../../data';
+import { PROJECTS } from '../../data';
 
 export const ProjectList = () => {
 	
@@ -8,7 +8,7 @@ export const ProjectList = () => {
 			<h2 id="projects-heading" className="sr-only">Meus Projetos</h2>
 			<div className="overflow-y-auto h-full hide-scrollbar::-webkit-scrollbar hide-scrollbar" aria-label="Lista de projetos">
 				<ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-					{projects.map((data, index) => {
+					{PROJECTS.map((data, index) => {
 						return (
 							<li key={index}>
 								<ProjectItem project={data} />

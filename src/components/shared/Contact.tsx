@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Button } from '../ui/button';
-import { SOCIAL_MEDIA } from '../utils/data';
 import { TooltipInfo } from './TooltipInfo';
+import { SOCIAL_MEDIA } from '@/data';
 
 const AnimatedButton = motion(Button);
 
@@ -29,12 +29,12 @@ export const Contact = () => {
 										asChild
 									>
 										<a 
-											href={item?.href}
+											href={item.href}
 											target="_blank"
 											rel="noopener noreferrer"
 											aria-label={`Visite meu perfil no ${item.tooltip}`}
 										>
-											{item?.social}
+											{item.social}
 										</a>
 									</AnimatedButton>
 								</TooltipInfo>

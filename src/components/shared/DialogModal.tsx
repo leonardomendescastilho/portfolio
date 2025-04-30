@@ -7,9 +7,9 @@ import {
 	DialogTitle,
 	DialogTrigger,
 } from '@/components/ui/dialog';
+import { DialogModalProps } from '@/types';
 import  { useState } from 'react';
 
-import { DialogModalProps } from '../utils/types';
 
 export function DialogModal({ 
 	title, 
