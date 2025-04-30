@@ -5,7 +5,7 @@ import { Resume } from '../shared/Resume';
 
 export const Main = () => {
 	return (
-		<main className="mx-auto px-4 flex flex-col items-center justify-around text-center gap-30" aria-labelledby="profile-heading">
+		<main className="mx-auto px-4 py-6 flex flex-col items-center justify-around text-center gap-30" aria-labelledby="profile-heading">
 			<span id="profile-heading" className="sr-only">Portfolio de Leonardo Mendes</span>
 			<div>
 				<ProfileDetails />
