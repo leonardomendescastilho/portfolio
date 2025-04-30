@@ -1,7 +1,6 @@
 import movieFinderBg from "@/assets/moviefinder-bg.webp";
 import {
 	Github,
-	Mail,
 	Linkedin,
 	MessageCircle,
 	Instagram,
