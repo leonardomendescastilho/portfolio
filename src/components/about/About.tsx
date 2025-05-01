@@ -19,60 +19,49 @@ export const About = () => {
 				</div>
 
 				<div className="text-sm md:text-base text-muted-foreground space-y-2 leading-snug text-pretty self-center">
-					<p>
-						Olá, eu sou{' '}
-						<strong className="font-semibold text-primary">
-							Leonardo Mendes
-						</strong>
-						, desenvolvedor front-end de São José dos Campos. Meu foco é criar{' '}
-						<strong className="font-semibold text-primary">
-							soluções elegantes
-						</strong>{' '}
-						com tecnologias modernas. Curso{' '}
-						<strong className="font-semibold text-primary">
-							Análise e Desenvolvimento de Sistemas
-						</strong>{' '}
-						na UNINTER, fortalecendo minha base técnica, e complementei meu
-						aprendizado com cursos pontuais, nacionais e internacionais.
-					</p>
-					<p>
-						Tenho mais de{' '}
-						<strong className="font-semibold text-primary">
-							um ano de experiência em front-end
-						</strong>
-						, dominando{' '}
-						<strong className="font-semibold text-primary">
-							React, JavaScript, TypeScript, HTML5 e CSS3
-						</strong>
-						, trabalhando com APIs e bancos de dados como PostgreSQL. Entre
-						projetos pessoais e freelas, destaco o{' '}
-						<strong className="font-semibold text-primary">SIOGA</strong>,
-						criado para a FURNAS, onde desenvolvi{' '}
-						<strong className="font-semibold text-primary">
-							interfaces dinâmicas, tabelas e gráficos
-						</strong>
-						, otimizando a experiência com boas práticas.
-					</p>
-					<p>
-						Fora da programação, pratico{' '}
-						<strong className="font-semibold text-primary">meditação</strong>,
-						o que me ajuda a manter o foco e a clareza ao desenvolver interfaces
-						que priorizam a experiência do usuário.{' '}
-					</p>
-					<p>
-						Na tecnologia, quero crescer como profissional, unindo habilidades
-						técnicas e{' '}
-						<strong className="font-semibold text-primary">
-							gestão de pessoas
-						</strong>
-						. Almejo{' '}
-						<strong className="font-semibold text-primary">
-							liderar projetos e equipes
-						</strong>
-						, contribuindo para soluções que impactem positivamente empresas e
-						usuários.
-					</p>
+  <p>
+    Olá! Sou{' '}
+    <strong className="font-semibold text-primary">Leonardo Mendes</strong>,
+    desenvolvedor de São José dos Campos. Comecei minha jornada na web com{' '}
+    <strong className="font-semibold text-primary">HTML, CSS e JavaScript</strong>,
+    e foi com o <strong className="font-semibold text-primary">React</strong> que me apaixonei pelo
+    desenvolvimento de interfaces. Com o tempo, venho expandindo meu conhecimento no
+    <strong className="font-semibold text-primary"> back-end</strong>, explorando o{' '}
+    <strong className="font-semibold text-primary">ecossistema Node.js</strong>,{' '}
+    <strong className="font-semibold text-primary">APIs</strong> e{' '}
+    <strong className="font-semibold text-primary">bancos de dados relacionais e não relacionais</strong>.
+  </p>
+  <p>
+    Curso{' '}
+    <strong className="font-semibold text-primary">Análise e Desenvolvimento de Sistemas</strong>{' '}
+    pela UNINTER, complementando minha formação com cursos nacionais e internacionais. Tenho
+    experiência em projetos pessoais e profissionais — destaque para o{' '}
+    <strong className="font-semibold text-primary">SIOGA</strong>, desenvolvido para a FURNAS. Nesse
+    projeto, atuei no desenvolvimento de{' '}
+    <strong className="font-semibold text-primary">interfaces interativas, tabelas e gráficos dinâmicos</strong>,
+    com foco na{' '}
+    <strong className="font-semibold text-primary">melhoria da performance e da usabilidade</strong>. Trabalhei na{' '}
+    <strong className="font-semibold text-primary">estruturação e adaptação de dados</strong> provenientes de uma{' '}
+    <strong className="font-semibold text-primary">API RESTful</strong>, além de participar ativamente da{' '}
+    <strong className="font-semibold text-primary">escolha de tecnologias</strong>, contribuindo com decisões sobre{' '}
+    <strong className="font-semibold text-primary">componentização, responsividade</strong> e{' '}
+    <strong className="font-semibold text-primary">carregamento eficiente</strong> dos dados.
+  </p>
+  <p>
+    Fora da tecnologia, sou praticante de{' '}
+    <strong className="font-semibold text-primary">meditação</strong> e valorizo momentos em contato com a{' '}
+    <strong className="font-semibold text-primary">natureza</strong> e com minha{' '}
+    <strong className="font-semibold text-primary">família</strong> — pilares que reforçam meu foco, clareza e equilíbrio no trabalho.
+  </p>
+  <p>
+    Meu objetivo vai além da técnica: quero evoluir como profissional capaz de{' '}
+    <strong className="font-semibold text-primary">liderar projetos</strong>,{' '}
+    <strong className="font-semibold text-primary">colaborar com times multidisciplinares</strong> e atuar de forma{' '}
+    <strong className="font-semibold text-primary">estratégica</strong> no desenvolvimento de{' '}
+    <strong className="font-semibold text-primary">produtos que façam a diferença</strong>.
+  </p>
 				</div>
+
 			</article>
 		</section>
 	);

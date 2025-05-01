@@ -9,17 +9,17 @@ interface ProjectItemProps {
 
 export const ProjectItem = ({ project }: ProjectItemProps) => {
 	return (
-		<article className="flex flex-col border-secondary group rounded-sm justify-center md:justify-start">
-			<div className='overflow-hidden rounded-t h-38 md:h-auto'>
+		<article className="flex flex-col border-secondary group rounded-sm justify-center md:justify-start border">
+			<div className='overflow-hidden rounded-t h-38 md:h-auto border-b'>
 				<img
-					className="object-cover w-full transition-all duration-300 ease-in-out brightness-80 group-hover:brightness-100 group-hover:scale-105"
+					className="object-cover w-full transition-all duration-300 ease-in-out brightness-100 group-hover:brightness-80 group-hover:scale-105"
 					src={project.backgroundImage}
 					alt={`Screenshot do projeto ${project.title}`}
 					loading="lazy"
 				/>
 			</div>
 
-			<div className="flex flex-col border p-2">
+			<div className="flex flex-col p-2">
 				<div className="flex flex-col gap-2 tracking-tight mb-3">
 					<h3 className="text-lg md:text-xl group-hover:text-chart-1 transition-all duration-300 ease-in-out font-semibold text-center text-balance">
 						{project.title}
