@@ -44,7 +44,7 @@ export const ProfileDetails = () => {
 					tabIndex={0}
 					aria-label="Descrição do perfil"
 				>
-					Sou desenvolvedor frontend com foco em ecossistema React. Tenho mais de um ano de prática, além de vivência com ecossistema Node.js, APIs e bancos de dados. Também sou entusiata de práticas meditativas e da vida em natureza.
+				Sou desenvolvedor com mais de um ano de experiência no ecossistema JavaScript, com foco principal em React. Também atuo com Node.js, integração de APIs e bancos de dados. Além da tecnologia, sou entusiasta de práticas meditativas e da vida em contato com a natureza.
 				</motion.p>
 			</div>
 		</section>
